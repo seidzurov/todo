@@ -2,8 +2,8 @@ import { useState } from "react";
 import { ThemeProvider } from "@/components/theme-provider"
 import { ModeToggle } from "./components/mode-toggle"
 import InputField from "./components/InputField"
-import { Todo } from "./models/model";
 import TodoList from "./components/TodoList";
+import { Todo } from "./models/model";
 
 const App:React.FC = () => {
 
